@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udacity.wertonguimaraes.firstapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:background="@drawable/skina_da_tapioca"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:paddingTop="@dimen/distance_between_icons_info"
+        android:paddingBottom="@dimen/distance_between_icons_info"
+        android:text="@string/skina_da_tapioca"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_info"
+        android:layout_marginStart="@dimen/margin_info"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/distance_between_icons_info">
+
+            <ImageView
+                style="@style/ListViewIconStyle"
+                android:background="@drawable/marker" />
+
+            <TextView
+                style="@style/ListViewTextStyle"
+                android:text="@string/skina_da_tapioca_street"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/distance_between_icons_info">
+
+            <ImageView
+                style="@style/ListViewIconStyle"
+                android:background="@drawable/phone" />
+
+            <TextView
+                style="@style/ListViewTextStyle"
+                android:text="@string/skina_da_tapioca_phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/distance_between_icons_info">
+
+            <ImageView
+                style="@style/ListViewIconStyle"
+                android:background="@drawable/email" />
+
+            <TextView
+                style="@style/ListViewTextStyle"
+                android:text="@string/skina_da_tapioca_email"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/distance_between_icons_info">
+
+            <ImageView
+                style="@style/ListViewIconStyle"
+                android:background="@drawable/clock" />
+
+            <TextView
+                style="@style/ListViewTextStyle"
+                android:text="@string/skina_da_tapioca_time"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/distance_between_icons_info">
+
+            <ImageView
+                style="@style/ListViewIconStyle"
+                android:background="@drawable/comments" />
+
+            <TextView
+                style="@style/ListViewTextStyle"
+                android:text="@string/skina_da_tapioca_description"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+</LinearLayout>

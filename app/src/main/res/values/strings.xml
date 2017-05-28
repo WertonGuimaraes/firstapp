@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="skina_da_tapioca">SKINA DA TAPIOCA</string>
+    <string name="skina_da_tapioca_street">R. Afrigio Ribeiro Brito, 24 - Jardim Paulistano</string>
+    <string name="skina_da_tapioca_phone">(83) 988305097</string>
+    <string name="skina_da_tapioca_email">werton007@gmail.com</string>
+    <string name="skina_da_tapioca_time">De Terça a Domingo. Das 17 as 23 horas.</string>
+    <string name="skina_da_tapioca_description">Tapioca, açaí e sanduíches muito gostosos e com um bom preço! Vale muito a pena conferir! contamos com delivery e sua comida regional chega quentinha e na hora. Então, se você passar com Campina Grande, não deixe de conferir nossas delícias!</string>
+</resources>
